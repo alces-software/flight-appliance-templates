@@ -733,7 +733,7 @@
         "AvailabilityList": "all"
       },
       "eu-west-1": {
-        "AMI": "ami-0d255f7e",
+        "AMI": "ami-8198dcf2",
         "AvailabilityList": "all"
       },
       "sa-east-1": {
