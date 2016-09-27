@@ -513,11 +513,11 @@
   "Mappings": {
     "FlightRegionParameters": {
       "ap-northeast-1": {
-        "AMI": "ami-a6b250c7",
+        "AMI": "",
         "AvailabilityList": "all"
       },
       "ap-northeast-2": {
-        "AMI": "ami-89a46fe7",
+        "AMI": "",
         "AvailabilityList": "no.g2-x1-m3-c3"
       },
       "ap-south-1": {
@@ -525,35 +525,35 @@
         "AvailabilityList": "no.g2-x1-m3-c3"
       },
       "ap-southeast-1": {
-        "AMI": "ami-96ca1bf5",
+        "AMI": "",
         "AvailabilityList": "all"
       },
       "ap-southeast-2": {
-        "AMI": "ami-bd89a6de",
+        "AMI": "",
         "AvailabilityList": "all"
       },
       "eu-central-1": {
-        "AMI": "ami-e9b65986",
+        "AMI": "",
         "AvailabilityList": "all"
       },
       "eu-west-1": {
-        "AMI": "ami-8198dcf2",
+        "AMI": "ami-121d5a61",
         "AvailabilityList": "all"
       },
       "sa-east-1": {
-        "AMI": "ami-21e2694d",
+        "AMI": "",
         "AvailabilityList": "no.m4-g2-x1-i2-d2-some.r3"
       },
       "us-east-1": {
-        "AMI": "ami-b747b0da",
+        "AMI": "",
         "AvailabilityList": "all"
       },
       "us-west-1": {
-        "AMI": "ami-e1007b81",
+        "AMI": "",
         "AvailabilityList": "no.x1"
       },
       "us-west-2": {
-        "AMI": "ami-ddc03ebd",
+        "AMI": "",
         "AvailabilityList": "all"
       }
     },
