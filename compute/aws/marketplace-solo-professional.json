@@ -184,6 +184,7 @@
         "m4.2xlarge-8C-32GB",
         "m4.4xlarge-16C-64GB",
         "m4.10xlarge-40C-160GB",
+        "m4.16xlarge-64C-256GB",
         "m3.medium-1C-3.75GB",
         "m3.large-2C-7.5GB",
         "m3.xlarge-4C-15GB",
@@ -352,6 +353,7 @@
         "m4.2xlarge-8C-32GB",
         "m4.4xlarge-16C-64GB",
         "m4.10xlarge-40C-160GB",
+        "m4.16xlarge-64C-256GB",
         "m3.medium-1C-3.75GB",
         "m3.large-2C-7.5GB",
         "m3.xlarge-4C-15GB",
@@ -738,7 +740,7 @@
       },
       "sa-east-1": {
         "AMI": "",
-        "AvailabilityList": "no.m4-g2-x1-i2-d2-some.r3"
+        "AvailabilityList": "no.g2-x1-i2-d2-some.r3"
       },
       "us-east-1": {
         "AMI": "",
@@ -783,6 +785,7 @@
         "m42xlarge": "m4.2xlarge",
         "m44xlarge": "m4.4xlarge",
         "m410xlarge": "m4.10xlarge",
+        "m416xlarge": "m4.16xlarge",
         "c4large": "c4.large",
         "c4xlarge": "c4.xlarge",
         "c42xlarge": "c4.2xlarge",
@@ -802,13 +805,19 @@
         "d24xlarge": "d2.4xlarge",
         "d28xlarge": "d2.8xlarge"
       },
-      "no.m4-g2-x1-i2-d2-some.r3": {
+      "no.g2-x1-i2-d2-some.r3": {
         "NULL": "",
         "t2nano": "t2.nano",
         "t2micro": "t2.micro",
         "t2small": "t2.small",
         "t2medium": "t2.medium",
         "t2large": "t2.large",
+        "m4large": "m4.large",
+        "m4xlarge": "m4.xlarge",
+        "m42xlarge": "m4.2xlarge",
+        "m44xlarge": "m4.4xlarge",
+        "m410xlarge": "m4.10xlarge",
+        "m416xlarge": "m4.16xlarge",
         "m3medium": "m3.medium",
         "m3large": "m3.large",
         "m3xlarge": "m3.xlarge",
@@ -838,6 +847,7 @@
         "m42xlarge": "m4.2xlarge",
         "m44xlarge": "m4.4xlarge",
         "m410xlarge": "m4.10xlarge",
+        "m416xlarge": "m4.16xlarge",
         "m3medium": "m3.medium",
         "m3large": "m3.large",
         "m3xlarge": "m3.xlarge",
@@ -880,6 +890,7 @@
         "m42xlarge": "m4.2xlarge",
         "m44xlarge": "m4.4xlarge",
         "m410xlarge": "m4.10xlarge",
+        "m416xlarge": "m4.16xlarge",
         "m3medium": "m3.medium",
         "m3large": "m3.large",
         "m3xlarge": "m3.xlarge",
@@ -965,6 +976,11 @@
       },
       "m4.10xlarge-40C-160GB": {
         "Key": "m410xlarge",
+        "PlacementAvailable": true,
+        "InstanceStorage": false
+      },
+      "m4.16xlarge-64C-256GB": {
+        "Key": "m416xlarge",
         "PlacementAvailable": true,
         "InstanceStorage": false
       },
@@ -1146,6 +1162,7 @@
         "m42xlarge": "m4.2xlarge",
         "m44xlarge": "m4.4xlarge",
         "m410xlarge": "m4.10xlarge",
+        "m416xlarge": "m4.16xlarge",
         "c4large": "c4.large",
         "c4xlarge": "c4.xlarge",
         "c42xlarge": "c4.2xlarge",
@@ -1165,7 +1182,13 @@
         "d24xlarge": "d2.4xlarge",
         "d28xlarge": "d2.8xlarge"
       },
-      "no.m4-g2-x1-i2-d2-some.r3": {
+      "no.g2-x1-i2-d2-some.r3": {
+        "m4large": "m4.large",
+        "m4xlarge": "m4.xlarge",
+        "m42xlarge": "m4.2xlarge",
+        "m44xlarge": "m4.4xlarge",
+        "m410xlarge": "m4.10xlarge",
+        "m416xlarge": "m4.16xlarge",
         "m3medium": "m3.medium",
         "m3large": "m3.large",
         "m3xlarge": "m3.xlarge",
@@ -1189,6 +1212,7 @@
         "m42xlarge": "m4.2xlarge",
         "m44xlarge": "m4.4xlarge",
         "m410xlarge": "m4.10xlarge",
+        "m416xlarge": "m4.16xlarge",
         "m3medium": "m3.medium",
         "m3large": "m3.large",
         "m3xlarge": "m3.xlarge",
@@ -1225,6 +1249,7 @@
         "m42xlarge": "m4.2xlarge",
         "m44xlarge": "m4.4xlarge",
         "m410xlarge": "m4.10xlarge",
+        "m416xlarge": "m4.16xlarge",
         "m3medium": "m3.medium",
         "m3large": "m3.large",
         "m3xlarge": "m3.xlarge",
